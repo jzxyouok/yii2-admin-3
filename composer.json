@@ -1,0 +1,29 @@
+{
+    "name": "purocean/yii2-admin",
+    "description": "RESTful RBAC Auth manager for Yii2",
+    "keywords": ["yii", "RESTful", "admin", "auth", "rbac"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/purocean/yii2-admin/issues",
+        "source": "https://github.com/purocean/yii2-admin"
+    },
+    "authors": [
+        {
+            "name": "Yang",
+            "email": "purocean@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.7"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "purocean\\yii2admin\\": ""
+        }
+    }
+}
